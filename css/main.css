@@ -1,0 +1,142 @@
+ul, li{
+	padding: 0;
+	margin: 0;
+}
+
+a{
+	text-decoration: none; 
+}
+.container{
+	max-width: 1000px;
+	padding: 0px 1em;
+	margin: 0 auto;
+}
+
+.row{
+	display: flex;
+}
+
+.row-center{
+	justify-content: center;
+}
+
+.welcome-row{
+	flex-direction: column;
+}
+
+@media screen and (min-width: 480px){
+	.welcome-row{
+	flex-direction: row;
+	justify-content: space-around;
+	}
+}
+
+.menu{
+	background-color: #2e2f33;
+	padding: 1em;
+}
+
+.menu-row{
+	justify-content: space-between;
+}
+
+
+.logo-azul{
+	color: #3395f6;
+} 
+
+.logo-blanco{
+	color:#fff;
+}
+
+.menu-lista{
+	display: none;
+}
+
+@media screen and (min-width: 480px){
+	.menu-lista{
+	display: block;
+	}
+} 
+
+.menu-item{
+	display: inline-block;
+	padding: 0.5em 1em;
+}
+
+.menu-link{
+	color: #fff;
+	text-decoration: none;
+}
+
+.welcome{
+	background-color: #2e2f33;
+	padding: 4em 0;
+	color: #fff;
+}
+
+
+
+.welcome-title{
+	font-size: 1.5em;
+	text-align: center;
+	margin: 0.5em 0;
+}
+
+.welcome-img{
+	max-width: 100px;
+	height: 131px;
+	margin: 0.5em auto;
+	display: block;
+}
+
+.welcome-item{
+	text-align: center;
+	padding: 1em;
+}
+
+.welcome-btn{
+	text-align: center;
+	padding: 0.5em 1em;
+	background-color: #2285e7;
+	color: #fff;
+	margin-top: 2em;
+	border-radius: 2px;
+}
+
+.beneficios{
+	margin: 1em 0;
+}
+
+.beneficios-row{
+	justify-content: space-between;
+	align-items: center; 
+	flex-wrap: wrap;
+}
+
+.beneficios-item-row{
+	flex-direction: column;
+}
+
+@media screen and (min-width: 480px){
+	.beneficios-item-row{
+	flex-direction: row;
+	}
+	.beneficio{
+		padding: 1em;
+		flex:1;
+	}
+}
+
+.beneficios-link{
+	color:  #2285e7;
+	padding: .5em 1em;
+	border: 1px solid #2285e7;
+	border-radius: 2px; 
+}
+
+.beneficios-img{
+	margin: 0 auto;
+	width: 100%;
+	height: 100%;
+}
