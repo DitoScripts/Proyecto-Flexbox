@@ -1,6 +1,7 @@
 ul, li{
 	padding: 0;
 	margin: 0;
+	list-style: none;
 }
 
 a{
@@ -20,6 +21,12 @@ a{
 	justify-content: center;
 }
 
+.btn{
+	color:  #2285e7;
+	padding: .5em 1em;
+	border: 1px solid ;
+	border-radius: 2px; 
+}
 .welcome-row{
 	flex-direction: column;
 }
@@ -128,12 +135,7 @@ a{
 	}
 }
 
-.beneficios-link{
-	color:  #2285e7;
-	padding: .5em 1em;
-	border: 1px solid ;
-	border-radius: 2px; 
-}
+
 
 .beneficios-img{
 	margin: 0 auto;
@@ -143,4 +145,61 @@ a{
 
 .beneficios-titulo{
 	color: #2285e7;
+}
+
+.info{
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+
+.info-row{
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin: 0.5em;
+}
+
+.logos{
+	margin: 2em 0;
+}
+
+.img-logo{
+	max-height: 50px;
+	margin: 0.5em;
+	flex-shrink: 0;
+}
+
+.row-logos{
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.footer{
+	background-color: #2e2f33;
+	padding: 2em 0;
+}
+
+.footer-row{
+	flex-direction: column;
+
+}
+
+@media screen and (min-width: 480px){
+	.footer-row{
+	flex-direction: row;
+	align-items: center;
+}
+}
+
+.footer-list{
+	flex: 1;
+}
+
+.footer-link{
+	padding: 0.3em 0;
+}
+
+.footer-link a{
+	color: #fff;
+	text-decoration: none;
 }
