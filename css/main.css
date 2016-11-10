@@ -131,7 +131,7 @@ a{
 .beneficios-link{
 	color:  #2285e7;
 	padding: .5em 1em;
-	border: 1px solid #2285e7;
+	border: 1px solid ;
 	border-radius: 2px; 
 }
 
@@ -139,4 +139,8 @@ a{
 	margin: 0 auto;
 	width: 100%;
 	height: 100%;
+}
+
+.beneficios-titulo{
+	color: #2285e7;
 }
